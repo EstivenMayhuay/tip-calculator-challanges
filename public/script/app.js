@@ -127,6 +127,7 @@ btnReset.addEventListener('click', () => {
   numberCustom.value = "";
 
   document.querySelector('#infoPercent').style.opacity = "0";
+  document.querySelector('#number__custom').style.border = "none";
 
   // reset percentages
   document.querySelectorAll('.percent--active').forEach(item => {
