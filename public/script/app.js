@@ -86,6 +86,11 @@ numberCustom.addEventListener('input', (e) => {
     // clean info
     document.querySelector('#infoPercent').style.display = 'none';
 
+    // remove active percents
+    document.querySelectorAll('.percent--active').forEach(perActive => {
+      perActive.classList.remove('percent--active');
+    });
+
     // calculate bill
     billCalculate(monto,percentage,people);
   }
