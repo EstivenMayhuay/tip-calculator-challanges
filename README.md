@@ -1,4 +1,4 @@
-# Frontend Mentor - Tip Calculator
+# Frontend Mentor - Tip Calculator 🧔
 
 Este es un challanges de frontend mentor que consiste en un pequeño código que calcule la factura por cliente y monto total.
 
